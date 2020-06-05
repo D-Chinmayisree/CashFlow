@@ -8,8 +8,6 @@
 This is just a sample app which is built with Kotlin🦸superpower and *Modern Android development* tools! It has below options:
 
 - **Cash Flow:** This is just for fun! :) Here you can keep track of your expenses. 
-  
-- **Top 100 Kotlin-Android Repos:** It shows Top 100 Android related repositories on GitHub which are developed using Kotlin!
 
 ---
 
