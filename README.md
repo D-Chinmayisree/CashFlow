@@ -9,7 +9,7 @@ This is just a sample app which is built with Kotlin🦸superpower and *Modern A
 
 - **Cash Flow:** This is just for fun! :) Here you can keep track of your expenses. 
 
-- **Manage Data** you can perform crud operation at your convince
+- **Manage Data:** you can perform crud operation at your convince
 
 ---
 
