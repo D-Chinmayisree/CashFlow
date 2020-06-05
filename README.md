@@ -3,9 +3,7 @@
 
 # CashFlow
 
-![Build](https://github.com/iamprakash13/30DaysOfKotlin/workflows/Build/badge.svg?branch=master)
 [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub KtDroid](https://img.shields.io/github/v/release/patilshreyas/gitktdroid?color=%23FFFF&label=Download%20APK&logo=android)](https://github.com/github.com/iamprakash13/releases/latest/download/app.apk)
 
 This is just a sample app which is built with Kotlin🦸superpower and *Modern Android development* tools! It has below options:
 
