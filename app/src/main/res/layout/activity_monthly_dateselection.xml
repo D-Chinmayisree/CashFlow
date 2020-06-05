@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    tools:context=".view.ui.activity.MonthlyDateSelectionActivity">
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="?attr/actionBarSize"-->
+<!--        android:background="@android:color/white"-->
+<!--        android:elevation="4dp"-->
+<!--        android:theme="@style/ThemeOverlay.MyApp.ActionBar"-->
+<!--        tools:targetApi="lollipop">-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/toolbarMonth"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:layout_marginStart="2dp"-->
+<!--                android:text="month"-->
+<!--                android:textAllCaps="true"-->
+<!--                android:textColor="@color/colorPrimary"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/notification_layout"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:clickable="true"-->
+<!--                android:focusable="true"-->
+<!--                android:foreground="?attr/selectableItemBackground"-->
+<!--                android:paddingStart="8dp"-->
+<!--                android:paddingEnd="16dp">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/toolbarCash"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_marginEnd="0dp"-->
+<!--                    android:text="cash"-->
+<!--                    android:textAllCaps="true"-->
+<!--                    android:textColor="@color/colorPrimary"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:textStyle="bold" />-->
+
+
+<!--            </RelativeLayout>-->
+
+<!--        </RelativeLayout>-->
+
+<!--    </androidx.appcompat.widget.Toolbar>-->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:theme="@style/ThemeOverlay.MyApp.ActionBar"
+        android:background="@color/colorPrimary"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:id="@+id/calenderLayout"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_calen">
+
+        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:mcv_showOtherDates="out_of_range"
+            app:mcv_selectionColor="@color/colorPrimaryDark"
+            />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nxt_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_btn"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="proceed"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

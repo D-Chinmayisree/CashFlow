@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cash Flow</string>
+    <string name="rupee">RS.</string>
+    <string name="rupeeSymbol">"\u20B9"</string>
+</resources>
